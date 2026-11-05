@@ -1,0 +1,49 @@
+# Node / JS
+node_modules/
+*.log
+
+# 大文件 / 二进制（除非源码）
+*.zip
+*.7z
+*.exe
+*.dll
+*.pdb
+*.lib
+*.sys
+*.cap   # 抓包
+*.pcap
+*.pcapng
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 临时文件
+*.tmp
+*.bak
+*.orig
+*.old
+*.patch
+*.idb
+*.ilk
+*.exp
+
+# REA 自带的 .git 子仓库（我们用顶层仓库管）
+rea/.git/
+
+# 环境 / 配置泄露风险
+.env
+*.local
+config/
+*.config
+SysPar.config
+
+# 逆向产物
+dump/
+__pycache__/
+*.pyc
+*.pyo
+
+# Xsoft1 整个目录（含 EVision 安装包和授权 DLL，太大）
+Xsoft1/
